@@ -44,6 +44,7 @@ print("\n--- Back Substitution ---")
 # Solve y
 y = A[1][2] / A[1][1]
 
+
 print("y =", y)
 
 # Solve x
@@ -52,6 +53,7 @@ x = (A[0][2] - A[0][1] * y) / A[0][0]
 print("x =", x)
 
 C= x+y
+D=C
 print(C)
 print("\nFinal Answer")
 print("x =", x)
