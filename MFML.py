@@ -51,6 +51,8 @@ x = (A[0][2] - A[0][1] * y) / A[0][0]
 
 print("x =", x)
 
+C= x+y
+print(C)
 print("\nFinal Answer")
 print("x =", x)
 print("y =", y)
